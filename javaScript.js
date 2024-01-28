@@ -41,8 +41,16 @@ document.addEventListener('DOMContentLoaded', function() {
         const gridPixels = document.querySelectorAll(".pixel");
         gridPixels.forEach(function(gridPixel) {
             gridPixel.addEventListener("mouseover", () => {
-            gridPixel.style.backgroundColor = "black";
+            gridPixel.style.backgroundColor = randomColor();
             });
         });
     };
+
+    function randomColor () {
+        const redValue = Math.floor(Math.random() * 256);
+        const greenValue = Math.floor(Math.random() * 256);
+        const blueValue = Math.floor(Math.random() * 256);
+        const rgbValues = `rgb(${redValue}, ${greenValue}, ${blueValue})`;
+        return rgbValues;
+    }
 });

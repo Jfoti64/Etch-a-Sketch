@@ -1,7 +1,7 @@
 #gridContainer {
     border: 5px solid black;
-    width: 600px; /* Set a fixed width for the container */
-    height: 600px; /* Set a fixed height for the container */
+    width: 600px;
+    height: 600px;
 }
 
 .row {
