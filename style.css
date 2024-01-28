@@ -12,3 +12,15 @@
 .pixel {
     background-color: white;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    margin: 0px;
+}
+
+button {
+    margin: 10px;
+}
