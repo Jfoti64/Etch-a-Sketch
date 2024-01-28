@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const gridPixels = document.querySelectorAll(".pixel");
         gridPixels.forEach(function(gridPixel) {
             gridPixel.addEventListener("mouseover", () => {
-            gridPixel.style.backgroundColor = "red";
+            gridPixel.style.backgroundColor = "black";
             });
         });
     };
